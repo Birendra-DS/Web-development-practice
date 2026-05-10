@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Basic Form </title>
+</head>
+<body>
+    <h1> Student Form </h1>
+
+    <!-- <form> is a container for all form elements --> 
+    <form>
+        <!-- label is used to describe input field  -->
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name">
+
+        <br><br>
+
+        <label> Email:</label>
+        <!-- placeholder is use to show text -->
+        <input tpye="email" placeholder="Enter your email">
+
+        <br><br>
+
+        <label> Password:</label>
+        <!-- required: field become compulsory -->
+        <input type="password" required>
+
+        <br><br>
+
+        <label> Age</label>
+        <!-- Value: default value. Here dealut value is 20 -->
+        <input type="number" placeholder="Enter age" value=20>
+
+        <br><br>
+
+        
+        <h3> Gender </h3>
+        <input type="radio" name="gender">
+        <label>Male</label>
+        <br>
+
+        <!-- Note: name must be same in both radio input as here gender.
+        Otherwise both can be selectable. -->
+        <input type="radio" name="gender">
+        <label>Female</label>
+
+        <!-- Checkbox -->
+        <h3> Skills </h3>
+        <input type="checkbox">
+        <label>HTML</label>
+        <br>
+        <input type="checkbox">
+        <label> Python </label>
+        <br>
+        <input type="checkbox">
+        <label>DBMS</label>
+
+        <br><br> 
+        
+        <!-- Dropdown -->
+         <h3> Your this month learning goal</h3>
+        <select>
+            <option>HTML</option>
+            <option>Javascript</option>
+            <option>CSS</option>
+        </select>
+
+        <br><br>
+        <button>Submit</button>
+    </form>
+
+
+
+</body>
+</html>

@@ -2,6 +2,7 @@
 - HTML is the structure of a webpage
 - CSS adds style 
 - Javascript adds logic
+
 ## HTML, head, body
 - <html>
 Root of the full page
@@ -132,7 +133,7 @@ Visible page content
 
 ## Section: <section>
 - Groups related content.
--
+
 ## Article tag: <article>
 - Independent content.
 - Use article only when content can stand alone.
@@ -158,5 +159,61 @@ Visible page content
 
 ## Rule
 - Use meaning-based tags before using div.
+
+
+# HTML Forms
+- forms are used everywhere. It collects data from user
+    - Login pages
+    - signup pages
+    - search bar
+    - feedback forms
+    - payment pages
+- Main tag: <form>   </form>
+    - Inside we place: input boxes, buttons, checkboxes, ration buttons
+    
+## <input> creates input box
+### text input
+- Used for:
+    - name
+    - city
+    - username
+### Email input
+- <input type="email">
+- Browser checks email format automatically
+
+### Password input:
+- <input tpye="password">
+- Hides typed characters
+
+### Number Input
+- <input type="number">
+- Only number allowed
+
+### Attributes
+- placeholder: shows hint text
+- Required: Field becomes compulsory
+- Value: Default value
+- name: Used to identify data
+
+### Radio buttons
+- Used when only ONE option allowed
+- Ex: Gender, Payment method
+- Note: Both radio buttons need same name. Otherwise otherwise both can be selected
+
+### checkboxes:
+- Used when multiple options allowed.
+- Ex: Skills, hobbies, languages
+- <input type="checkbox">
+
+### Select Dropdown
+- Used to make dropdown
+- <select> <option>  </option></select>
+
+
+
+
+
+
+
 
 
